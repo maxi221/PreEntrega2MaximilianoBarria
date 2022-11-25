@@ -16,7 +16,7 @@
 }
 body{
     font-family:"IslandMoments-Regular" ;
-    font-size: 16px;
+    font-size: 13px;
 }
 .contenedor {
 	width: 90%;
@@ -80,7 +80,7 @@ body{
 /*mediano*/
 @media (max-width: 768px){
     body{
-        font-size: 18px;
+        font-size: 16.5px;
     }
     .contenedor .contenido{
         grid-column: span 3;
@@ -88,17 +88,27 @@ body{
     .contenedor .side{
         grid-column: span 3;
     }
+
 }
 /*chico*/
 @media (max-width: 576px){
     body{
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .header{
         flex-direction: column;
         align-items: center;
 
+    }
+    .menu .item:hover .submenu{
+        display: block;
+        
+        
+    
+    
+  
+        position:relative;
     }
 }
 
@@ -141,6 +151,7 @@ nav{
     text-align: center;
 }
 .menu .submenu{
+    
     position: absolute;
     display: none;
     font-size: 0.5em;
@@ -173,6 +184,7 @@ nav{
 }
 .menu .item:hover .submenu{
     display: block;
+    
     
 
 }

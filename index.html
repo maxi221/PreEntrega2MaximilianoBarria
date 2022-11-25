@@ -9,6 +9,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+
 	<link rel="stylesheet" href="./css/estilo.css">
 
 	<title>index</title>
@@ -19,21 +21,28 @@
 			<div >
 			<img class="logo1 " src="./assets/img/logo.jpg" alt="logo" width="75" style="float:right">
 			</div>
-			<nav class="animate__animated animate__fadeInDown">
-				<ul class="menu ">
+			<nav class="navbar navbar-expand-md navbar-ligth  animate__animated animate__fadeInDown">
+				<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#opciones" type="button">
+					<span class="navbar-toggler-icon"></span>
+
+				</button>
+				<div class="collapse navbar-collapse" id="opciones">
+					<ul class="menu ">
 			
 				
-					<li class="item"><a href="index.html">Inicio</a></li> 
-					<li class="item"><a href="./views/servicios.html">Conocenos</a></li>
-					<li class="item"><a href="./views/producto.html">Productos</a> 
-						<ul class="submenu">
-							<li class="sub_i"><a href="./views/producto.html">Clasicos</a></li>
-							<li class="sub_i"><a href="./views/producto.html">Nuevos</a></li>
-						</ul> 	
-					</li>
-					<li class="item"><a href="./views/ubicacion.html">ubicacion</a></li>
-				
-				</ul>	
+						<li class="item"><a href="index.html">Inicio</a></li> 
+						<li class="item"><a href="./views/servicios.html">Conocenos</a></li>
+						<li class="item"><a href="./views/producto.html">Productos</a> 
+							<ul class="submenu">
+								<li class="sub_i"><a href="./views/producto.html">Clasicos</a></li>
+								<li class="sub_i"><a href="./views/producto.html">Nuevos</a></li>
+							</ul> 	
+						</li>
+						<li class="item"><a href="./views/ubicacion.html">ubicacion</a></li>
+					
+					</ul>	
+				</div>
+
 			
 			
 			</nav>
@@ -50,7 +59,7 @@
 		
 				<article id="noticia">
 
-				<p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, mollitia. Facilis, cumque, mollitia quos sit aspernatur ratione suscipit officiis repellendus architecto optio eum officia laborum cum dolore possimus perspiciatis molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa inventore, debitis distinctio voluptatem atque tempora corrupti quod optio laborum odit, molestias tenetur, nesciunt dolorum doloremque perferendis ex! Eius, voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eligendi tenetur aperiam laudantium nobis repellat quibusdam cum debitis, consectetur dolorem fugit magnam veniam non saepe, reiciendis, tempora nihil quia nisi, harum? Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Magnam cum excepturi ut ipsa veniam suscipit nostrum aut nulla voluptas, blanditiis accusamus soluta temporibus laborum atque maiores amet incidunt placeat maxime.</p>
+				<p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, mollitia. Facilis, cumque, mollitia quos sit aspernatur ratione suscipit officiis repellendus architecto optio eum officia laborum cum dolore possimus perspiciatis molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa inventore, debitis distinctio voluptatem atque tempora corrupti quod optio laborum odit, molestias tenetur, nesciunt dolorum doloremque perferendis ex! Eius, voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eligendi tenetur aperiam laudantium nobis repellat quibusdam cum debitis, consectetur dolorem </p>
 			
 				</article>
 			</section>
@@ -65,6 +74,9 @@
 
 		</footer>
 	</div>
+	<script src="./js/jquerry.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
 		AOS.init({easing: 'ease-out-back',duration:2000});
