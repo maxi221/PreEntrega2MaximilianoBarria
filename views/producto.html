@@ -9,29 +9,39 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  	<link rel="stylesheet" href="../css/estilo.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/estilo.css">
 
 	<title>productos</title>
 </head>
 <body>
 	<div class="contenedor">
 		<header class="header animate__animated animate__fadeInDown">
-			<img class="logo1" src="../assets/img/logo.jpg" alt="logo" width="75" style="float:right">
-			<nav class="animate__animated animate__fadeInDown">
-				<ul class="menu">
+			<div >
+			<img class="logo1 " src="../assets/img/logo.jpg" alt="logo" width="75" style="float:right">
+			</div>
+			<nav class="navbar navbar-expand-md navbar-ligth  animate__animated animate__fadeInDown">
+				<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#opciones" type="button">
+					<span class="navbar-toggler-icon"></span>
+
+				</button>
+				<div class="collapse navbar-collapse" id="opciones">
+					<ul class="menu ">
 			
 				
-					<li class="item"><a href="../index.html">Inicio</a></li> 
-					<li class="item"><a href="servicios.html">Conocenos</a></li>
-					<li class="item"><a href="producto.html">Productos</a> 
-						<ul class="submenu">
-							<li class="sub_i"><a href="#clasico">Clasicos</a></li>
-							<li class="sub_i"><a href="#nuevos">Nuevos</a></li>
-						</ul> 	
-					</li>
-					<li class="item"><a href="ubicacion.html">ubicacion</a></li>
-				
-				</ul>	
+						<li class="item"><a href="../index.html">Inicio</a></li> 
+						<li class="item"><a href="./servicios.html">Conocenos</a></li>
+						<li class="item"><a href="./producto.html">Productos</a> 
+							<ul class="submenu">
+								<li class="sub_i"><a href="#clasico">Clasicos</a></li>
+								<li class="sub_i"><a href="#nuevos">Nuevos</a></li>
+							</ul> 	
+						</li>
+						<li class="item"><a href="./ubicacion.html">ubicacion</a></li>
+					
+					</ul>	
+				</div>
+
 			
 			
 			</nav>
@@ -71,6 +81,8 @@
 		</footer>
 
 	</div>	
+	<script src="../js/jquerry.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
 		AOS.init({easing: 'ease-out-back',duration:2000});
