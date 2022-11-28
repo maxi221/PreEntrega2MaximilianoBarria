@@ -161,7 +161,7 @@ nav{
 .menu .submenu .sub_i{
     display:block;
     font-size: 1.5em;
-    padding: auto;
+    padding: 0.008em;
     
     
     
@@ -183,6 +183,12 @@ nav{
     color: gray;
 }
 .menu .item:hover .submenu{
+    display: block;
+    
+    
+
+}
+.menu .sub_i:hover .submenu {
     display: block;
     
     
