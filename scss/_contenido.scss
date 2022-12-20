@@ -3,7 +3,7 @@ $color1:rgb(245, 241, 210);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 72% 72%;
 }
 @mixin divs(){
 
@@ -51,7 +51,7 @@ $color1:rgb(245, 241, 210);
 
 
 .section1{
-    background-image: url("../assets/img/cafe_clasico.jpg") ;
+    background-image: url("../assets/img/cafe-contactos.jpg") ;
     @include fondo();
     @include divs();
     p{

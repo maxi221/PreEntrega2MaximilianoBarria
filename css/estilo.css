@@ -119,7 +119,7 @@ nav {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 72% 72%;
   height: auto;
   padding: 2em;
   margin: 3em;
@@ -141,11 +141,11 @@ nav {
   border-radius: 2em; }
 
 .section1 {
-  background-image: url("../assets/img/cafe_clasico.jpg");
+  background-image: url("../assets/img/cafe-contactos.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 72% 72%;
   height: auto;
   padding: 2em;
   margin: 3em;
@@ -177,7 +177,7 @@ nav {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 72% 72%;
   height: auto;
   padding: 2em;
   margin: 3em;
@@ -209,7 +209,7 @@ nav {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 72% 72%;
   padding: 3em;
   border-radius: 2em;
   width: auto;
