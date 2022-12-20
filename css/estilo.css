@@ -241,12 +241,12 @@ nav {
 /*extra largo */
 @media (max-width: 1280px) {
   body {
-    font-size: 14px; } }
+    font-size: 15px; } }
 
 /* largo*/
 @media (max-width: 900px) {
   body {
-    font-size: 16px; }
+    font-size: 18px; }
   .contenedor {
     grid-template-rows: repeat(5, auto);
     grid-template-areas: 'header			header   	header' 'destacado		destacado 	destacado' 'contenido		contenido 	contenido' 'side           side        side' 'footer	 		footer 		footer'; } }
@@ -254,7 +254,7 @@ nav {
 /*mediano*/
 @media (max-width: 768px) {
   body {
-    font-size: 16.5px; }
+    font-size: 18.5px; }
   .contenedor .contenido {
     grid-column: span 3; }
   .contenedor .side {
@@ -263,7 +263,7 @@ nav {
 /*chico*/
 @media (max-width: 576px) {
   body {
-    font-size: 18px; }
+    font-size: 20px; }
   .header {
     flex-direction: column;
     align-items: center; }
