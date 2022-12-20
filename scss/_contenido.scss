@@ -1,0 +1,132 @@
+.section {
+    h1{
+        text-align: center;
+       
+    }
+    article{
+        background-image: url("../assets/img/cafe_index.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: auto;
+        padding: 2em;
+        margin: 3em;
+        border-radius: 2em;
+    }
+    p{
+        background-color: beige;
+        opacity: 0.5;
+        border-radius: 2em;
+        font-weight: bolder;
+    }
+    .section3{
+        background-image: url("../assets/img/nosotro.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: auto;
+        padding: 2em;
+        margin: 3em;
+        border-radius: 2em;
+        
+    }
+}
+
+
+
+.section1{
+    background-image: url("../assets/img/cafe_clasico.jpg") ;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+    padding: 2em;
+    margin: 3em;
+    border-radius: 2em;
+    p{
+        color: rgb(10, 10, 10);
+        
+        size-adjust: 100% 100%;
+        
+        font-weight: bolder;
+    }
+    h4{
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    
+}
+.section2{
+    background-image: url("../assets/img/cafe_artistico.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+    padding: 2em;
+    margin: 3em;
+    border-radius: 2em;
+    p{
+        color: rgb(10, 10, 10);
+        size-adjust: 100% 100%;
+        
+        
+        font-weight: bolder;
+    }
+    h4{
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    
+}
+.div_table{
+    background-image: url("../assets/img/cafe_granos.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    padding: 3em;
+    
+    border-radius: 2em;
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+.table{
+
+   
+    padding: 2em;
+    
+    border-radius: 2em;
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+
+.table1{
+    //background-image: url("../assets/img/cafe-salud.jpg");
+    background-color: bisque;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80em 50em;
+   
+    padding: 3em;
+    
+    border-radius: 2em;
+    width: 31em; 
+    margin-left: auto;
+    margin-right: auto; 
+    form{
+        margin-left: 0;
+        margin-right: auto; 
+    }
+}

@@ -1,0 +1,56 @@
+/*extra largo */
+@media (max-width: 1280px){
+    body{
+        font-size: 14px;
+    }
+}
+/* largo*/
+@media (max-width: 900px){
+    body{
+        font-size: 16px;
+    }
+    .contenedor {
+ 
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            'header			header   	header'
+            'destacado		destacado 	destacado'
+            'contenido		contenido 	contenido'
+            'side           side        side'
+            'footer	 		footer 		footer';
+    }
+}
+/*mediano*/
+@media (max-width: 768px){
+    body{
+        font-size: 16.5px;
+    }
+    .contenedor .contenido{
+        grid-column: span 3;
+    }
+    .contenedor .side{
+        grid-column: span 3;
+    }
+
+}
+/*chico*/
+@media (max-width: 576px){
+    body{
+        font-size: 18px;
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .menu .item:hover .submenu{
+        display: block;
+        
+        
+    
+    
+  
+        position:relative;
+    }
+}
