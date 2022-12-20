@@ -39,7 +39,8 @@ p {
   size-adjust: auto auto; }
 
 .contacto {
-  font-size: 2em; }
+  font-size: 2em;
+  text-decoration: none; }
 
 .contenedor {
   width: 90%;
@@ -73,8 +74,6 @@ p {
       grid-template-columns: repeat(1, 0.5fr);
       grid-template-rows: repeat(3, auto);
       grid-template-areas: 'redes' 'redes1' 'redes2'; }
-      .contenedor .side .contenedor_redes .redes {
-        width: 50px; }
   .contenedor .footer {
     grid-column-start: 1;
     grid-column-end: -1; }
