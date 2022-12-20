@@ -23,12 +23,28 @@
     }
     .side{
         grid-row: inherit;
-        background-color: rgb(253, 237, 216);
+        //background-color: rgb(253, 237, 216);
         border-radius: 5%;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
+        .contenedor_redes{
+            width: 90%;
+            max-width: 75em;
+            margin: 1.2em auto;
+            display: grid;
+            grid-gap: 1.2em;
+            grid-template-columns: repeat(1, 0.5fr);
+            grid-template-rows: repeat(3, auto);
+            grid-template-areas:
+                'redes'
+                'redes1'
+                'redes2';
+            .redes{
+                width: 50px;
+            }    
+        }
     }
     .footer{
         grid-column-start: 1;

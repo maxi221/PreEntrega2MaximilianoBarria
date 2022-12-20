@@ -1,3 +1,4 @@
+$color:rgb(232, 214, 187);
 nav{
     text-align: center;
     
@@ -6,7 +7,7 @@ nav{
     
 }
 .menu{
-    background-color: blanchedalmond;
+    background-color: $color;
     list-style-type: none;
     padding: 0;
     width: 80%;
@@ -17,7 +18,7 @@ nav{
         font-size: 2em;
         text-align: center;
         &:hover a{
-            background-color: bisque;
+            background-color: $color;
         }
         a{
             color: black;

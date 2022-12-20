@@ -20,6 +20,7 @@ body{
     font-size: 16px;
 }
 h1,h2,h3,h4{
+
     font-family: "Shalimar-Regular";
     font-size: 3em;
 }
@@ -27,6 +28,8 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
     color: rgb(29, 28, 28);
+    background-color: beige;
+    opacity: 0.8;
 }
 .logo1{
     width: 6em;
@@ -41,3 +44,10 @@ p{
     border-radius: 50%;
 
 }
+.e404{
+  size-adjust: auto auto;
+}
+.contacto{
+    font-size: 2em;
+}
+
